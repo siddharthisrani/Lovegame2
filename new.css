@@ -18,9 +18,9 @@ body {
 }
 
 .first-text {
-  font-size: 4.4rem;
+  font-size: 4rem;
   position: absolute;
-  left: 2.5rem;
+  left: 0rem;
   top: 5rem;
   opacity: 0;
   animation-name: topFadeOut;
@@ -56,7 +56,7 @@ body {
 .fourth-text {
   font-size: 3.4rem;
   position: absolute;
-  top: 10.5rem;
+  top: 6rem;
   left: 10%;
   opacity: 0;
   color: #f0a3be;
@@ -66,9 +66,9 @@ body {
 }
 
 .fifth-text {
-  font-size: 4.5rem;
+  font-size: 4rem;
   position: absolute;
-  left: 5%;
+  left: 3%;
   bottom: 25%;
   opacity: 0;
   color: #f0eba3;
@@ -142,14 +142,14 @@ body {
 
   75% {
     position: absolute;
-    right: 10rem;
+    right: 5rem;
     top: -1rem;
     opacity: 1;
   }
 
   100% {
     opacity: 0;
-    right: 10rem;
+    right: 5rem;
     top:-3rem;
   }
 }
